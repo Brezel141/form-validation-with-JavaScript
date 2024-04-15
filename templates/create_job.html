@@ -4,14 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Include the CSS files for styling -->
-    <!-- Include the CSS files for styling -->
-    <link
-      rel="stylesheet"
-      href="/static/style.css"
-      <link
-      rel="stylesheet"
-      href="/static/reset.css"
-    />
+    <link rel="stylesheet" href="/static/style.css" />
+    <link rel="stylesheet" href="/static/reset.css" />
     <title>Recruitment</title>
   </head>
   <body>
@@ -21,12 +15,15 @@
             <form id="entry-form">
                 <label for="job-id">Job-ID:</label>
                 <input type="text" id="job-id" name="job-id" required />
+                <span id="job-id-error" style="color: red;"></span>
 
                 <label for="title">Titel:</label>
                 <input type="text" id="title" name="title" required />
+                <span id="title-error" style="color: red;"></span>
 
                 <label for="description">Beschreibung:</label>
                 <textarea id="description" name="description" required></textarea>
+                <span id="description-error" style="color: red;"></span>
 
                 <input type="submit" value="Eintrag erstellen" />
             </form>

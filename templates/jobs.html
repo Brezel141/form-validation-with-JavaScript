@@ -31,15 +31,19 @@
                 <form id="apply-form">
                 <label for="job-id">Job-ID:</label>
                 <input type="text" id="apply-job-id" name="job-id" required />
+                <span id="apply-job-id-error" style="color: red;"></span>
 
-                <label for="name">Vorname:</label> ̰
-                <input type="text" id="name" name="name" required /> ̰
+                <label for="name">Vorname:</label>
+                <input type="text" id="name" name="name" required />
+                <span id="name-error" style="color: red;"></span>
 
                 <label for="surname">Name:</label>
                 <input type="text" id="surname" name="surname" required />
+                <span id="surname-error" style="color: red;"></span>
 
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required />
+                <span id="email-error" style="color: red;"></span>
 
                 <input type="submit" value="Bewerbt dich!" />
                 </form>
