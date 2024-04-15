@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Include the CSS files for styling -->
+    <link rel="stylesheet" href="/static/style.css" />
+    <link rel="stylesheet" href="/static/reset.css" />
+    <title>Recruitment</title>
+  </head>
+    <body>
+        <div class="container">
+
+            <div class="jobs-view">
+                <h1>Jobs</h1>
+                <!-- Hier ansicht von Jobs -->
+                <div class="job">
+                <h2>Job-ID: 001</h2>
+                <p>Lorem, ipsum.</p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                    omnis nihil quae corporis dolore culpa autem ut deserunt officiis
+                    aliquam?
+                </p>
+                </div>
+            </div>
+
+            
+            <div class="apply-view">
+                <h1>Bewerbung</h1>
+                <form id="apply-form">
+                <label for="job-id">Job-ID:</label>
+                <input type="text" id="apply-job-id" name="job-id" required />
+
+                <label for="name">Vorname:</label> ̰
+                <input type="text" id="name" name="name" required /> ̰
+
+                <label for="surname">Name:</label>
+                <input type="text" id="surname" name="surname" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <input type="submit" value="Bewerbt dich!" />
+                </form>
+            </div>
+        </div>
+        <button><a href="create_job.html">Neues Job anbieten</a></button>
+        <button><a href="applaiers.html">Bewerber</a></button>
+        
+    </body>
+</html>

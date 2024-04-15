@@ -1,0 +1,180 @@
+/* Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+button {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for create_job.html */
+.create-view {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.create-view h1 {
+    font-size: 30px;
+    color: #007BFF;
+}
+
+.create-view form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-view label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.create-view input[type="text"],
+.create-view textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.create-view input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.create-view input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style for jobs.html */
+.container {
+    margin: 50px 50px 0 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.jobs-view {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.apply-view { 
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 0 0 20px;
+}
+
+.jobs-view h1, .apply-view h1 {
+    font-size: 35px;
+    color: #007BFF;
+}
+
+.jobs-view h2 {
+    font-size: 25px;
+    margin: 10px 0 10px 0;
+    color: #333;
+}
+
+.jobs-view p {
+    margin:  10px 0 10px 0;
+    color: #666;
+}
+
+.jobs-view form, .apply-view form {
+    display: flex;
+    flex-direction: column;
+}
+
+.jobs-view label, .apply-view label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.jobs-view input[type="text"], .jobs-view input[type="email"],
+.apply-view input[type="text"], .apply-view input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.jobs-view input[type="submit"], .apply-view input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.jobs-view input[type="submit"]:hover, .apply-view input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style for applicants.html */
+.applicants-view {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.applicants-view h1 {
+    font-size: 30px;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+.applicants-view .applicant {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.applicants-view .applicant h2 {
+    font-size: 24px;
+    color: #0f1e2f;
+    margin-bottom: 10px;
+}
+
+.applicants-view .applicant p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
