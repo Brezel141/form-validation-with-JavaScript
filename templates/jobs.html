@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags and CSS links -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Include the CSS files for styling -->
     <link rel="stylesheet" href="/static/css/style.css" />
     <link rel="stylesheet" href="/static/css/reset.css" />
     <title>Recruitment</title>
   </head>
   <body>
+
+    <!-- Job view and application form container -->
     <div class="container">
+
+      <!-- Job view section -->
       <div class="jobs-view">
         <h1>Jobs</h1>
-        <!-- Hier ansicht von Jobs -->
         <div class="job">
           <h2>Job-ID: 001</h2>
           <p>Lorem, ipsum.</p>
@@ -24,6 +27,7 @@
         </div>
       </div>
 
+      <!-- Application form section -->
       <div class="apply-view">
         <h1>Bewerbung</h1>
         <form id="apply-form">
@@ -43,13 +47,17 @@
           <input type="email" id="email" name="email" />
           <span id="email-error" style="color: red"></span>
 
+          <!-- Submit button -->
           <input type="submit" value="Bewerbt dich!" />
         </form>
       </div>
     </div>
+
+    <!-- Navigation buttons -->
     <button><a href="create_job.html">Neues Job anbieten</a></button>
     <button><a href="applicant.html">Bewerber</a></button>
 
+    <!-- JavaScript for form handling -->
     <script src="/static/js/jobs.js"></script>
   </body>
 </html>

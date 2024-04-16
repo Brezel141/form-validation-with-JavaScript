@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags and CSS links -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Include the CSS files for styling -->
     <link rel="stylesheet" href="/static/css/style.css" />
     <link rel="stylesheet" href="/static/css/reset.css" />
+    
     <title>Recruitment</title>
   </head>
   <body>
+
+    <!-- Form container -->
     <div class="container">
       <div class="create-view">
         <h1>Neue Eintrege erstellen</h1>
         <form id="entry-form">
+
+          <!-- Form fields with error messages -->
+
           <label for="job-id">Job-ID:</label>
           <input type="text" id="job-id" name="job-id" />
           <span id="job-id-error" style="color: red"></span>
@@ -25,14 +31,17 @@
           <textarea id="description" name="description"></textarea>
           <span id="description-error" style="color: red"></span>
 
+          <!-- Submit button -->
           <input type="submit" value="Eintrag erstellen" />
         </form>
       </div>
     </div>
 
+    <!-- Navigation buttons -->
     <button><a href="jobs.html">Job</a></button>
     <button><a href="applicant.html">Bewerber</a></button>
 
+    <!-- JavaScript for form handling -->
     <script src="/static/js/create_job.js"></script>
   </body>
 </html>
