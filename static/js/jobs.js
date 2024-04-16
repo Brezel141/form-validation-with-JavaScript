@@ -1,3 +1,4 @@
+// Function to get form fields
 function getFormFields() {
     var jobId = document.getElementById('job-id');
     var name = document.getElementById('name');
@@ -7,15 +8,18 @@ function getFormFields() {
     return { jobId, name, surname, email };
 }
 
+// Function to check if all fields are valid
 function allFieldsAreValid(fields) {
     return fields.jobId.value !== '' && fields.name.value !== '' && fields.surname.value !== '' && fields.email.value !== '';
 }
 
+// Event listener for form submission
 document.getElementById("apply-form").addEventListener('submit', function(event){
     event.preventDefault();
 
     var fields = getFormFields();
 
+    // Validation for each field
     if(fields.jobId.value === ''){
         document.getElementById('job-id-error').textContent = "Job-ID is required";
     }else {
@@ -40,6 +44,7 @@ document.getElementById("apply-form").addEventListener('submit', function(event)
         document.getElementById('email-error').textContent = "";
     }
 
+    // If all fields are valid, reset the form
     if(allFieldsAreValid(fields)){
         document.getElementById('apply-form').reset();
     }
