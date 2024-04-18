@@ -1,8 +1,8 @@
-# School Project - Job Application Form
+# School Project - JavaScrip Form Validation
 
-This project is part of my school coursework. It's a web application for job applications, and it's still a work in progress.
+This project is part of my school coursework.
 
-## Progress So Far
+## Progress 
 
 So far, I've completed the following steps:
 
@@ -12,9 +12,6 @@ So far, I've completed the following steps:
 
 3. **Form Validation**: I've implemented form validation using JavaScript. This ensures that all required fields are filled in before the form can be submitted.
 
-## Future Work
-
-I plan to continue developing this project by adding more features and improving the existing ones. This includes enhancing the user interface, adding more interactivity, connecting to a database, etc.
 
 ## Feedback
 
